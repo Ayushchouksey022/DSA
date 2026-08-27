@@ -3,6 +3,8 @@
             // Language: C++
             // Link: https://leetcode.com/problems/largest-odd-number-in-string/
 
+class Solution {
+public:
     string largestOddNumber(string num) {
         int n = num.size();
 
@@ -14,4 +16,3 @@
 
         return "";
     }
-};
